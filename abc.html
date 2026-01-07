@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background-color: #f4f7fa; 
+            color: #333;
+            line-height: 1.6;
+            font-family: sans-serif;
+            @media (max-width: 80em)
+            {body
+                {
+                    background-color: #e0e7ff;
+                }
+            }
+            
+        }
+*   {
+    box-sizing: border-box;
+    }   
+
+    header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+    padding: 1rem; 
+    font-size: 1.2rem;
+    color: #0659be;
+    text-decoration: none;
+    }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            margin:0  0.9rem;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: rgb(8, 113, 241);
+        }
+
+        .sign-in {
+            text-decoration: none;
+            background-color: rgb(8, 113, 241);
+            color: white;
+            font-weight: 600;
+            border-radius: 0.313rem;
+            padding: 0.8rem 1.5rem;
+        }
+
+        .sign-in:hover {
+            background-color: #0659be;
+        }
+
+        main {
+            max-width: 75rem;
+            margin: 2.5rem auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 0.5rem;
+        }
+
+        .article-grid {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+}
+@media (min-width: 48rem) { 
+    .article-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+        article {
+            flex: 1;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 0;
+            color: #111;
+        }
+
+        .article-image {
+            width: 100%;
+            height: 9.375rem;
+            background: linear-gradient(135deg, #e0e7ff 0%, #f1f5f9 100%);
+            border-radius: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1.25rem 0rem;
+            color: #8898aa;
+            font-weight: 500;
+        }
+        
+        .a1 {
+            display: inline-block;
+            margin: 1rem 0 2rem 0;
+            color: rgb(8, 113, 241);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .a1:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #888;
+        }
+    </style>
+    <body>
+        <header>
+        <div class="logo">LOGO</div>
+        <nav>
+            <a href="abc.html"target="_blank">HOME</a>
+            <a href="Solutions.html" target="_blank">Solutions</a>
+            <a href="https://www.youtube.com" target="_blank">News</a>
+            <a href="#">Achievements</a>
+        </nav>
+        <a href="signin.html" target="_blank"class="sign-in">Sign In</a>
+    </header>
+
+    <main>
+        <div class="article-grid">
+            <article>
+        <h2>Article 1</h2>
+        <div class="article-image">
+            <p>Image Placeholder</p>
+        </div>
+        
+        <p>In this block we will wright ramdom text.This is a sample text.</p>
+        
+        <a href="moreinfo.html" class="a1">Learn more</a>
+        </article>
+
+        <article>
+         <h2>Article 2</h2>
+        <div class="article-image">
+            <p>Image Placeholder</p>
+        </div>
+
+        <p>In this block we will wright ramdom text.This is a sample text.</p>
+
+        <a href="moreinfo.html" class="a1">Learn more</a>
+        </article>
+
+        <article>
+        <h2>Article 3</h2>
+        <div class="article-image">
+            <p>Image Placeholder</p>
+        </div>
+
+        <p>In this block we will wright ramdom text.This is a sample text.</p>
+
+        <a href="moreinfo.html" class="a1">Learn more</a>
+        </article>
+
+        <article>
+        <h2>Article 4</h2>
+        <div class="article-image">
+            <p>Image Placeholder</p>
+        </div>
+
+        <p>In this block we will wright ramdom text.This is a sample text.</p>
+
+        <a href="moreinfo.html" class="a1">Learn more</a>
+        </article>
+
+        <article>
+        <h2>Article 5</h2>
+        <div class="article-image">
+            <p>Image Placeholder</p>
+        </div>
+
+        <p>In this block we will wright ramdom text.This is a sample text.</p>
+
+        <a href="moreinfo.html" class="a1">Learn more</a>
+        </article>
+
+        <article>
+        <h2>Article 6</h2>
+        <div class="article-image">
+            <p>Image Placeholder</p>
+        </div>
+
+        <p>In this block we will wright ramdom text.This is a sample text.</p>
+
+        <a href="moreinfo.html" class="a1">Learn more</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>Home | Sitemap | Copyright &copy; 2026</p>
+    </footer>
+    </body>
+</html>

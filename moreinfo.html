@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Information | Article Details</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f4f7fa; 
+            color: #333;
+            line-height: 1.8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 10%;
+            background-color: #ffffff;
+            top: 0;
+            position: sticky;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: rgb(8, 113, 241);
+            text-decoration: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            margin: 0 0.9rem;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 3rem auto;
+            background: white;
+            padding: 4rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: rgb(8, 113, 241);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 350px;
+            background: linear-gradient(135deg, #e0e7ff 0%, #cbd5e1 100%);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            color: #64748b;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #111;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .meta-info {
+            color: #777;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .highlight-box {
+            background-color: #f0f7ff;
+            border-left: 5px solid rgb(8, 113, 241);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+        }
+
+        .resources {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid #f4f7fa;
+        }
+
+        .resources h3 {
+            color: #111;
+        }
+
+        .resource-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resource-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .resource-list a {
+            color: rgb(8, 113, 241);
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            color: #888;
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 1.5rem;
+            }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">LOGO</a>
+        <nav>
+            <a href="abc.html">Home</a>
+            <a href="Solutions.html">Solutions</a>
+            <a href="https://www.google.com">News</a>
+        </nav>
+        <div style="width: 80px;"></div> </header>
+
+    <div class="container">
+        <a href="javascript:history.back()" class="back-link">← Back to Articles</a>
+        
+        <div class="hero-image">
+            <p>Main Article Visual</p>
+        </div>
+
+        <h1>Deep Dive: Exploring the Future of Technology</h1>
+        
+        <div class="meta-info">
+            Published on January 5, 2026 • By <strong>Jane Doe</strong> • 8 min read
+        </div>
+
+        <div class="content">
+            <p>Welcome to the detailed breakdown of our latest research. In this section, we expand upon the brief summary provided on the homepage. Technology is evolving at a rapid pace, and understanding the underlying mechanics is crucial for staying ahead.</p>
+
+            <div class="highlight-box">
+                "Innovation distinguishes between a leader and a follower. This guide provides the tools to lead."
+            </div>
+
+            <p>Here you can include detailed data, technical specifications, or expanded storytelling. The goal of this page is to provide the "Why" and "How" behind the "What."</p>
+
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>Efficiency increases by 40% when using proper layouts.</li>
+                <li>User engagement is higher on clean, readable pages.</li>
+                <li>Responsive design is no longer optional in 2026.</li>
+            </ul>
+        </div>
+
+        <section class="resources">
+            <h3>Related Resources</h3>
+            <ul class="resource-list">
+                <li><a href="#">Download PDF Whitepaper</a></li>
+                <li><a href="#">Watch the Video Interview</a></li>
+                <li><a href="#">View Technical Documentation</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Your Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
